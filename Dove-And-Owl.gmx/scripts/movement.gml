@@ -1,9 +1,11 @@
 ///movement(void)
 getInput();
 move = key_left + key_right;
+//Sets player direction as long as a button is pressed
 if(move!= 0){
     dirc = move;
 }
+//Applies the movement speed
 hspd = move * movespeed;
 //Jumping 
 if (on_ground){

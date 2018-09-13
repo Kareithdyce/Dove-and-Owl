@@ -1,4 +1,5 @@
 ///verticalCollision(void)
+//Incase of special walls
 var wall = instance_place(x, y + vspd, obj_walls);
 if(wall != noone){
     if(place_meeting(x, y + vspd, obj_walls)){
