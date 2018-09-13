@@ -70,6 +70,7 @@ hasControl = true;
             <kind>1</kind>
             <string>///Movement
 movement();
+
 //Changes the dircetion the character is facing
 image_xscale = dirc;
 </string>
