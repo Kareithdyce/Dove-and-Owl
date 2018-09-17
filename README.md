@@ -8,7 +8,7 @@ Up Key to jump(the longer you press the longer you jump to a point)
 
 ## Debugging
 
-When running the game press the g-key to get the current stats of the player:
+When running the game press the G-key to get the current stats of the player:
 
 * Current x.
 
