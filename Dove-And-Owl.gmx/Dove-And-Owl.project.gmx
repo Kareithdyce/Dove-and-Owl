@@ -8,6 +8,20 @@
   <sprites name="sprites">
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_player</sprite>
+    <sprites name="Characters">
+      <sprites name="Dove">
+        <sprite>sprites\spr_dove_idle</sprite>
+        <sprite>sprites\spr_dove_walking</sprite>
+        <sprite>sprites\spr_dove_attack1</sprite>
+        <sprite>sprites\spr_dove_attack2</sprite>
+        <sprite>sprites\spr_dove_attack3</sprite>
+      </sprites>
+      <sprites name="Owl">
+        <sprite>sprites\spr_owl_idle</sprite>
+        <sprite>sprites\spr_owl_walking</sprite>
+        <sprite>sprites\spr_owl_attack</sprite>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
