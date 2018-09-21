@@ -6,8 +6,8 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\spr_wall</sprite>
     <sprites name="Characters">
       <sprites name="Dove">
         <sprite>sprites\spr_dove_idle</sprite>
@@ -22,6 +22,10 @@
         <sprite>sprites\spr_owl_attack</sprite>
       </sprites>
     </sprites>
+    <sprites name="enemies">
+      <sprite>sprites\spr_dummyHit</sprite>
+      <sprite>sprites\spr_dummy</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -32,10 +36,13 @@
     <script>scripts\getStats.gml</script>
     <script>scripts\horizontalCollision.gml</script>
     <script>scripts\getInput.gml</script>
+    <script>scripts\attack.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_walls</object>
     <object>objects\obj_player</object>
+    <object>objects\obj_blade</object>
+    <object>objects\obj_testDummy</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
