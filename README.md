@@ -4,7 +4,10 @@
 
 Left and Right Arrow Keys to move
 
+Space Key to Attack
+
 Up Key to jump(the longer you press the longer you jump to a point)
+
 
 ## Debugging
 
