@@ -2,17 +2,24 @@
 getInput();
 move = key_left + key_right;
 //Sets player direction as long as a button is pressed
-if(move!= 0 && currentBird == 1){
+//Owl form
+if(move != 0 && currentBird == 1){
     sprite_index = spr_owl_walking;
     dirc = move;
-} else if(currentBird == 1){
+} 
+else if(currentBird == 1){
     sprite_index = spr_owl_idle;
-} else if(move!= 0 && currentBird == 2){
+}
+//Dove Form
+if(move != 0 && currentBird == 2){
     sprite_index = spr_dove_walking;
     dirc = move;
-} else if(currentBird == 2){
+} 
+else if(currentBird == 2){
     sprite_index = spr_dove_idle;
-}else if(currentBird == 0) {
+}
+//Error Form
+if(currentBird == 0) {
     object_set_visible(self,false)
 }
 //Applies the movement speed

@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>enemyHealth = 3
+            <string>///Seting up 
+enemyHealth = 3
 </string>
           </argument>
         </arguments>
@@ -48,7 +49,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>enemyHealth--
+            <string>///Decreasing Health
+enemyHealth--
 sprite_index = spr_dummy
 </string>
           </argument>
@@ -72,7 +74,8 @@ sprite_index = spr_dummy
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(enemyHealth &lt; 1){
+            <string>///Handles Death
+if(enemyHealth &lt; 1){
     instance_destroy()
 }
 </string>
@@ -80,7 +83,7 @@ sprite_index = spr_dummy
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_blade">
+    <event eventtype="4" ename="obj_player_atk">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -97,7 +100,8 @@ sprite_index = spr_dummy
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>sprite_index = spr_dummyHit
+            <string>///Handles Hitbox
+sprite_index = spr_dummyHit
 alarm[0] = 5
 </string>
           </argument>

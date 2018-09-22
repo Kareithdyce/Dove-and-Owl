@@ -40,8 +40,19 @@
   </scripts>
   <objects name="objects">
     <object>objects\obj_walls</object>
+    <objects name="Player Stuff">
+      <objects name="Dove">
+        <object>objects\obj_feather1</object>
+        <object>objects\obj_feather2</object>
+        <object>objects\obj_feather3</object>
+        <object>objects\obj_feathers</object>
+      </objects>
+      <objects name="Owl">
+        <object>objects\obj_blade</object>
+      </objects>
+      <object>objects\obj_player_atk</object>
+    </objects>
     <object>objects\obj_player</object>
-    <object>objects\obj_blade</object>
     <object>objects\obj_testDummy</object>
   </objects>
   <rooms name="rooms">

@@ -13,6 +13,8 @@ with(obj_player){
     ini_write_real("Stats", "Gravity Max", gravMax);
     ini_write_real("Stats", "Jumping Speed", jumpspeed);
     ini_write_real("Stats", "Max Jumps", jumps_max);
+    ini_write_real("Stats", "Form", currentBird);
+    
           
 }
 ini_close();
