@@ -15,11 +15,13 @@
         <sprite>sprites\spr_dove_attack1</sprite>
         <sprite>sprites\spr_dove_attack2</sprite>
         <sprite>sprites\spr_dove_attack3</sprite>
+        <sprite>sprites\spr_dove_jump</sprite>
       </sprites>
       <sprites name="Owl">
         <sprite>sprites\spr_owl_idle</sprite>
         <sprite>sprites\spr_owl_walking</sprite>
         <sprite>sprites\spr_owl_attack</sprite>
+        <sprite>sprites\spr_owl_jump</sprite>
       </sprites>
     </sprites>
     <sprites name="enemies">
