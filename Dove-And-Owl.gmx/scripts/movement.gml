@@ -36,10 +36,7 @@ if (on_ground){
     vspd = 0;
     facing = dirc
 }
-if (key_jump_release && vspd < 0) {
-    vspd = 0;
-    
-}
+
 if (number_of_jumps > 0 && key_jump) {
     vspd = key_jump * -jumpspeed;
     number_of_jumps--;

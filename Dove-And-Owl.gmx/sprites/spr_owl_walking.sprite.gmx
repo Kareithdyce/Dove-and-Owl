@@ -28,5 +28,13 @@
     <frame index="5">images\spr_owl_walking_5.png</frame>
     <frame index="6">images\spr_owl_walking_6.png</frame>
     <frame index="7">images\spr_owl_walking_7.png</frame>
+    <frame index="8">images\spr_owl_walking_8.png</frame>
+    <frame index="9">images\spr_owl_walking_9.png</frame>
+    <frame index="10">images\spr_owl_walking_10.png</frame>
+    <frame index="11">images\spr_owl_walking_11.png</frame>
+    <frame index="12">images\spr_owl_walking_12.png</frame>
+    <frame index="13">images\spr_owl_walking_13.png</frame>
+    <frame index="14">images\spr_owl_walking_14.png</frame>
+    <frame index="15">images\spr_owl_walking_15.png</frame>
   </frames>
 </sprite>
