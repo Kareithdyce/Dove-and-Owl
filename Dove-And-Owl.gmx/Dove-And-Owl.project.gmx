@@ -28,6 +28,7 @@
       <sprite>sprites\spr_dummyHit</sprite>
       <sprite>sprites\spr_dummy</sprite>
     </sprites>
+    <sprite>sprites\spr_checkpoint</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -35,13 +36,16 @@
     <script>scripts\movement.gml</script>
     <script>scripts\verticalCollision.gml</script>
     <script>scripts\setStats.gml</script>
+    <script>scripts\loadGame.gml</script>
     <script>scripts\getStats.gml</script>
+    <script>scripts\saveGame.gml</script>
     <script>scripts\horizontalCollision.gml</script>
     <script>scripts\getInput.gml</script>
     <script>scripts\attack.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_walls</object>
+    <object>objects\obj_save</object>
     <objects name="Player Stuff">
       <objects name="Dove">
         <object>objects\obj_feather1</object>
@@ -60,8 +64,9 @@
   <rooms name="rooms">
     <room>rooms\room0</room>
   </rooms>
-  <constants number="1">
+  <constants number="2">
     <constant name="EDITSTATE">"edit.ini"</constant>
+    <constant name="SAVEFILE">"save.ini"</constant>
   </constants>
   <help>
     <rtf>help.rtf</rtf>
