@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>///Set Up
-buff = 10;
+buff = 20;
 if(!instance_exists(obj_player)){
     instance_destroy();
 }
