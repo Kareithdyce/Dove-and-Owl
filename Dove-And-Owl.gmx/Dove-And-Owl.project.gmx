@@ -44,6 +44,7 @@
     <script>scripts\attack.gml</script>
   </scripts>
   <objects name="objects">
+    <object>objects\obj_camera</object>
     <object>objects\obj_walls</object>
     <object>objects\obj_save</object>
     <objects name="Player Stuff">
