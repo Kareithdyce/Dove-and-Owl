@@ -6,6 +6,7 @@ if(file_exists(SAVEFILE)){
         y = ini_read_real("Location", "Y", 0);
         room = ini_read_real("Location", "Room", room0);
         currentBird = ini_read_real("Stats", "Form", 1);
+        global.checkpoint = ini_read_real("Save", "Id", 0);
     }
     ini_close();
 }

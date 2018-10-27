@@ -42,6 +42,7 @@
     <script>scripts\horizontalCollision.gml</script>
     <script>scripts\getInput.gml</script>
     <script>scripts\attack.gml</script>
+    <script>scripts\die.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_walls</object>
@@ -60,6 +61,7 @@
     </objects>
     <object>objects\obj_player</object>
     <object>objects\obj_testDummy</object>
+    <object>objects\obj_enemy</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
