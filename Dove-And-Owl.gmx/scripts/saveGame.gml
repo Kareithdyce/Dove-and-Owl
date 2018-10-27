@@ -10,6 +10,9 @@ with(obj_player){
     //Store Stats
     ini_write_real("Stats", "Form", currentBird);
     
+    //Store Checkpoint
+    ini_write_real("Save", "Id", global.checkpoint);
+    
           
 }
 ini_close();

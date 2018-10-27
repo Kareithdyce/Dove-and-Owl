@@ -7,6 +7,6 @@ if(currentBird == 1){
 }
 //This is how dove attacks
 if(currentBird == 2){
-    //wingAttack1 = instance_create(x + (spriteDirection * 55), y,obj_feather1);
-    //wingAttack1.image_xscale = spriteDirection;
+      wingAttack = instance_create(x , y,obj_feathers);
+      wingAttack.spriteDirection = spriteDirection;
 }
